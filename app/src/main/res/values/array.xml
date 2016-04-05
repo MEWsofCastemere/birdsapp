@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="birds">
+        <item>Add a bird sighting</item>
+        <item>Delete a bird sighting</item>
+        <item>Modify a bird sighting</item>
+        <item>View a single bird sighting record</item>
+    </string-array>
+</resources>

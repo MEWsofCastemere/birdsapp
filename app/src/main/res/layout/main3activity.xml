@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.mew2795.birdsoftheworld.Main3Activity">
+
+    <!--<ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <TableRow>
+                <TextView
+                    android:text="@string/Bird_Overview" />
+            </TableRow>
+            <TableRow>
+                <RadioButton
+                    android:id="@+id/firstRadioButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="@string/round_no"
+                    android:onClick="radio1"/>
+
+                <ImageView
+                    android:id="@+id/image"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:scaleType="center"
+                    android:src="@drawable/index"/>
+            </TableRow>
+            <TableRow>
+                <RadioButton
+                    android:id="@+id/secondRadioButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="@string/birdB"
+                    android:onClick="radio2"/>
+
+                <ImageView
+                    android:id="@+id/image2"
+                    android:layout_width="200px"
+                    android:layout_height="wrap_content"
+                    android:scaleType="center"
+                    android:src="@drawable/bluebird"/>
+            </TableRow>
+            <TableRow>
+                <RadioButton
+                    android:id="@+id/thirdRadioButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="@string/birdC"
+                    android:onClick="radio3"/>
+
+                <ImageView
+                    android:id="@+id/image3"
+                    android:layout_width="200px"
+                    android:layout_height="wrap_content"
+                    android:scaleType="center"
+                    android:src="@drawable/regurgitation"/>
+            </TableRow>
+            <TableRow>
+                <RadioButton
+                    android:id="@+id/fourthRadioButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="@string/birdD"
+                    android:onClick="radio4"/>
+
+                <ImageView
+                    android:id="@+id/image4"
+                    android:layout_width="200px"
+                    android:layout_height="wrap_content"
+                    android:scaleType="center"
+                    android:src="@drawable/dodo"/>
+            </TableRow>
+            <TableRow>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/done"
+                    android:id="@+id/quit"
+                    android:layout_marginTop="54dp"
+                    android:onClick="quitapp"
+                    android:layout_below="@+id/quitbutton"
+                    android:layout_centerHorizontal="true"/>
+            </TableRow>
+        </TableLayout>
+    </ScrollView>-->
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:spinnerMode="dropdown"
+        android:entries="@array/birds" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/birdtype"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/datos"
+        android:layout_below="@+id/birdtype"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/los"
+        android:layout_below="@+id/datos"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/notes"
+        android:layout_below="@+id/los"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/id"
+        android:layout_below="@+id/notes"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
